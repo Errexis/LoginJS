@@ -39,5 +39,5 @@ app.get('/', (req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log('Servidor online.');
+    console.log('login funcionando!');
 })
