@@ -9,9 +9,6 @@ const app = express();
 
 const db = require('./models/db');
 
-var login = "admin";
-var senha = "123456";
-
 app.use(session({secret:'j412d12r15di5'}));
 app.use(bodyParser.urlencoded({extended:true}));
 
